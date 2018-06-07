@@ -20,8 +20,11 @@ $opel = [
 $newArr = array();
 $newArr['bmv'] = $bmv;
 $newArr['toyota'] = $toyota;
-$newArr['open'] = $opel;
+$newArr['opel'] = $opel;
 
-echo "CAR <br/>";
-foreach($newArr['bmv'] as $key )//=> $value)
-echo $key.' '.$value;
+foreach ($newArr as $name=>$val) {
+    echo "CAR ".$name."<br/>";
+    foreach ($val as $char) echo $char."  ";
+    echo "<br/><br/>";
+}
+
