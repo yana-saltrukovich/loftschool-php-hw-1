@@ -1,0 +1,6 @@
+<?php
+const PICTURES = 80;
+const FELT_PEN = 23;
+const PEN = 40;
+$paints = PICTURES - FELT_PEN - PEN;
+echo $paints;
