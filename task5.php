@@ -24,8 +24,7 @@ $newArr['opel'] = $opel;
 
 foreach ($newArr as $name => $val) {
     echo "CAR " . $name . "<br/>";
-    $char=implode(",",$val);
-    echo $char;
+   echo implode(",",$val);
     echo "<br/><br/>";
 }
 
