@@ -8,6 +8,5 @@ switch ($day = 8) {
         break;
     case $day <= 1 && $day >= 7:
         echo "Неизвестный день";
-        break;
 }
 ?>
