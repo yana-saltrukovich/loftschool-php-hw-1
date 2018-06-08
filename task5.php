@@ -17,7 +17,7 @@ $opel = [
     "doors" => 2,
     "year" => "2012"
 ];
-$newArr = array();
+$newArr = [];
 $newArr['bmv'] = $bmv;
 $newArr['toyota'] = $toyota;
 $newArr['opel'] = $opel;
