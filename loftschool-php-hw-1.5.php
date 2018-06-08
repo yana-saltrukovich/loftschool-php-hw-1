@@ -1,5 +1,5 @@
 <?php
-$bmv =[
+$bmv = [
     "model" => "X5",
     "speed" => 120,
     "doors" => 5,
@@ -22,9 +22,10 @@ $newArr['bmv'] = $bmv;
 $newArr['toyota'] = $toyota;
 $newArr['opel'] = $opel;
 
-foreach ($newArr as $name=>$val) {
-    echo "CAR ".$name."<br/>";
-    foreach ($val as $char) echo $char."  ";
+foreach ($newArr as $name => $val) {
+    echo "CAR " . $name . "<br/>";
+    $char=implode(",",$val);
+    echo $char;
     echo "<br/><br/>";
 }
 
